@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\Administrator\Desktop\경빈\Project1\Source.c(17,2): warning C4098: 'main': 'void' function returning a value
+C:\Users\Administrator\Desktop\경빈\Project1\Source.c(15,6): warning C4101: 'n': unreferenced local variable
+  Project1.vcxproj -> C:\Users\Administrator\Desktop\경빈\Project1\x64\Debug\CLecture.exe

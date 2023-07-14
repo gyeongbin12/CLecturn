@@ -1,2 +1,4 @@
 ﻿  Source.c
+C:\Users\Administrator\Desktop\CLecturn\Project1\Source.c(85,26): warning C4056: overflow in floating-point constant arithmetic
+C:\Users\Administrator\Desktop\CLecturn\Project1\Source.c(84,16): warning C4305: 'initializing': truncation from 'int' to 'char'
   Project1.vcxproj -> C:\Users\Administrator\Desktop\CLecturn\Project1\x64\Debug\CLecture.exe

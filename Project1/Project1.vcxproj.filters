@@ -20,7 +20,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="(2023.7.12)변수.h">
+    <ClInclude Include="%282023.7.12%29 변수.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="(2023.7.13) 상수.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

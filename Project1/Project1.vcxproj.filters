@@ -35,5 +35,14 @@
     <ClInclude Include="%282023.7.19%29 자료형 변환.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="(2023.7.20) 포인터.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="(2023.7.17) 조건문 헤더.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="(2023.7.21) 포인터 상수항.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

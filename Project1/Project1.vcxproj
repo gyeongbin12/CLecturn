@@ -27,6 +27,9 @@
     <ClInclude Include="%282023.7.14%29 비트와 바이트.h" />
     <ClInclude Include="%282023.7.18%29 반복문.h" />
     <ClInclude Include="%282023.7.19%29 자료형 변환.h" />
+    <ClInclude Include="(2023.7.17) 조건문 헤더.h" />
+    <ClInclude Include="(2023.7.20) 포인터.h" />
+    <ClInclude Include="(2023.7.21) 포인터 상수항.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

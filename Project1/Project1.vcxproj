@@ -30,6 +30,7 @@
     <ClInclude Include="(2023.7.17) 조건문 헤더.h" />
     <ClInclude Include="(2023.7.20) 포인터.h" />
     <ClInclude Include="(2023.7.21) 포인터 상수항.h" />
+    <ClInclude Include="(2023.7.24) 배열.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

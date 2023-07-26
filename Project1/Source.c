@@ -1,73 +1,74 @@
-#include <stdio.h>
+#include<stdio.h>
 
+#pragma region 재귀 함수
+	// 어떤 함수에서 자신을 다시 호출하여
+	// 작업을 수행하는 함수입니다.
 
-void main() 
+void Function()
 {
-#pragma region 배열
-	// 같은 자료형의 변수들로 이루어진 유한 집합.
-
-	int buffer[5] = { 0,1,2 };
-
-	// 배열은 원하는 원소에 원하는 값을 저장할 수 있으며,
-	// 배열의 크기는 컴파일이 되는 시점부터 고정된
-	// 메모리 공간을 가지게 된다.
-	buffer[0] = 100;
-
-	// 배열의 경우 첫 번째 원소는 0부터 시작
-	// printf("buffer의 0번 째 index는 : %d\n", buffer[0]);
-	// printf("buffer의 1번 째 index는 : %d\n", buffer[1]);
-	// printf("buffer의 2번 째 index는 : %d\n", buffer[2]);
-	// printf("buffer의 3번 째 index는 : %d\n", buffer[3]);
-	// printf("buffer의 4번 째 index는 : %d\n", buffer[4]);
-
-	// 배열의 크기는 생략할 수 있으며, 초기화 목록에서
-	// 설정한 요소에 따라 배열의 크기가 결정된다.
-	float dataList[] = { 1.11f, 2.22f, 3.33f };
-
-	// 배열은 연속적인 메모리 공간을 가지며, 배열의 이름은
-	// 배열의 시작 주소를 가리킨다.
-	// printf("dataList의 주소 : %p\n", dataList);
-	// printf("dataList[0]의 주소 : %p\n", dataList[0]);
-
-	float* floatPtr = dataList;
-	
-	/*
-	printf("floatPtr이 가리키는 주소 : %p\n", floatPtr);
-	printf("floatPtr이 가리키는 값 : %f\n", *(floatPtr +0));
-
-	floatPtr = floatPtr + 1;
-
-	printf("floatPtr이 가리키는 주소 : %p\n", floatPtr);
-	printf("floatPtr이 가리키는 값 : %f\n", *(floatPtr));
-	*/
-
-	// 배열의 크기를 벗어나서 데이터를 저장할 수 없습니다.
-	// ex) dataList[4] = 36.1f;		ERROR
-
+	// 재귀 함수는 함수를 계속 호출하기 때문에
+	// 스택 영역에 메모리가 계속 쌓이게 되므로
+	// 스택 오버플로우가 발생함.
+	printf("함수 호출\n");
+	Function();
+}	
 #pragma endregion
 
-#pragma region 문자열
-	// 연속적인 메모리 공간에 저장된 문자 변수의 집합
 
-	// 문자열의 경우 포인터를 이용하여 문자열 상수를
-	// 가리키도록 할 수 있으며, 문자열 상수는 데이터
-	// 영역의 읽기 전용 공간에 저장되기 때문에 문자열의
-	// 값을 변경할 수 없습니다.
+// void CountDown(int count)
+/*
+{
+	// 방어 코드
+	if (count <= 0)
+	{
+		return;
+	}
 
-	const char* character = "Level";
+	printf("count의 값 : %d\n", count);
+	CountDown(count - 1);
+}
+*/
+// 팩토리얼
 
-	// 문자열은 공백도 함께 메모리 공간에 포함하여 크기가
-	// 결정되며, 마지막에 문자열의 끝을 알려주는
-	// 제어 문자가 추가된다.
-	character = "Cla\0ss";
+// !5(120) !4(24) !3(6)
+// 3! = 1 * 2 * 3
+// 4! = 1 * 2 * 3 * 4
+// 5! = 1 * 2 * 3 * 4 * 5
 
-	// 문자열의 경우 문자 배열 사이에 무효의 문자를 넣게 되면
-	// 무효의 문자까지만 문자열을 출력한다.
+// void Count(int a)
+/*
+{
+	if (a <= 0)
+	{
+		return;
+	}
+	printf("%d\n", a);
+	Count(a * a - 1);
+}
+*/
 
-	// "%s"
-	printf("character의 값 : %s\n", character);
-	printf("character의 값 : %c", *(character+1));
 
-#pragma endregion
+int main() 
+{
+	// Count(3);
 
+	int data = 20;
+
+	int* ptr = &data;
+
+	// 0a 00 00 00
+
+
+	// 빅 엔디안 방식
+	// 네트워크 <- 통일
+
+	// 리틀 엔디안 방식
+	// 낮은 주소에 데이터의 낮은 byte부터 
+	// 저장하는 방식
+
+
+
+	// 프로그램이 정상적으로 종료되었을 때
+	// 0이라는 반환합니다.
+	return 0;
 }

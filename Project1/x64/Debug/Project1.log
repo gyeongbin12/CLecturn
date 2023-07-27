@@ -1,3 +1,2 @@
-﻿  Source.c
-C:\Users\Administrator\Desktop\새 폴더\Project1\Source.c(14): warning C4717: 'Function': recursive on all control paths, function will cause runtime stack overflow
+﻿  Source1.cpp
   Project1.vcxproj -> C:\Users\Administrator\Desktop\새 폴더\Project1\x64\Debug\CLecture.exe

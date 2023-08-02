@@ -50,5 +50,8 @@
     <ClInclude Include="(2023.7.26) 재귀 함수.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="(2023.8.2) typedef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

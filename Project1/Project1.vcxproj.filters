@@ -50,7 +50,7 @@
     <ClInclude Include="(2023.7.26) 재귀 함수.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="(2023.8.2) typedef.h">
+    <ClInclude Include="%282023.8.2%29 자기참조구조체.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -33,6 +33,9 @@
     <ClInclude Include="(2023.7.24) 배열.h" />
     <ClInclude Include="(2023.7.26) 재귀 함수.h" />
     <ClInclude Include="%282023.8.2%29 자기참조구조체.h" />
+    <ClInclude Include="%282023.8.3%29 ASCII 코드.h" />
+    <ClInclude Include="%282023.8.4%29 이중포인터.h" />
+    <ClInclude Include="(2023.8.7) 포인터 배열.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
